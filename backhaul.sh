@@ -129,7 +129,7 @@ download_and_extract_backhaul() {
     ARCH=$(uname -m)
     case "$ARCH" in
         x86_64)
-            DOWNLOAD_URL="http://92.242.220.178/backhaul/backhaul-patch"
+            DOWNLOAD_URL="https://github.com/jenaze/backhaul/blob/jenaze-patch-1/backhaul-patch"
             ;;
         *)
             echo -e "${RED}Unsupported architecture: $ARCH.${NC}"
